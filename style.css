@@ -72,11 +72,13 @@ nav .navbar {
   align-items: center;
   flex-direction: row;
   width: 100%;
-  padding: 1rem 6.5rem;
+  padding: 0.5rem 6.5rem;
   background: transparent;
   transition: all 0.5s ease;
   position: fixed;
   z-index: 99999999;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
 nav .navbar .nav-toggler {
@@ -425,3 +427,57 @@ nav .navbar .nav-social ul li a {
 }
 
 /* end  */
+
+/* for action section  */
+
+.action-section {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #910afa),
+    url(./assets/action\ bg\ img.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.action-section .paralal {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.action-section .paralal h3,
+.action-section .paralal {
+  color: #fff;
+}
+
+.action-section .paralal p {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.action-section .paralal .news {
+  margin: auto;
+  padding: 12px 0 12px 15px;
+  max-width: 450px;
+  background-color: #fff;
+  border-radius: 50px;
+  position: relative;
+}
+
+.action-section .paralal .news i {
+  padding-right: 10px;
+  font-size: 18px;
+  color: #535cf1;
+}
+
+.action-section .paralal .news input {
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+
+/* end */
