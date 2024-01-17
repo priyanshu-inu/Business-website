@@ -245,6 +245,7 @@ nav .navbar .nav-social ul li a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 8rem;
 }
 
 #main-wrapper .service h6 {
@@ -310,6 +311,7 @@ nav .navbar .nav-social ul li a {
 .price {
   display: block;
   text-align: center;
+  margin-bottom: 8rem;
 }
 
 .price h6 {
@@ -439,6 +441,7 @@ nav .navbar .nav-social ul li a {
   background-size: cover;
   background-position: center;
   position: relative;
+  margin-bottom: 8rem;
 }
 
 .action-section .paralal {
@@ -461,7 +464,7 @@ nav .navbar .nav-social ul li a {
 
 .action-section .paralal .news {
   margin: auto;
-  padding: 12px 0 12px 15px;
+  padding: 11px 0 11px 15px;
   max-width: 450px;
   background-color: #fff;
   border-radius: 50px;
@@ -480,4 +483,78 @@ nav .navbar .nav-social ul li a {
   font-size: 18px;
 }
 
+.action-section .paralal .news button {
+  background-image: linear-gradient(to left, #353cf1, #a147e4);
+  border: none;
+  outline: none;
+  color: #fff;
+  font: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 15px;
+  margin-left: 20px;
+}
+
 /* end */
+
+/* contact section start  */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact .form {
+  width: 70%;
+}
+
+.contact .form .first-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.contact .form .first-row input {
+  width: 47%;
+  height: 56px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 25px;
+  border: 1px solid #cbced1;
+}
+
+.contact h6 {
+  margin-bottom: 3rem;
+}
+
+.contact .form textarea {
+  width: 100%;
+  resize: none;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px 25px 0 25px;
+  border: 1px solid #cbced1;
+}
+
+.contact .form .hero-btn {
+  margin: 2rem auto;
+  width: 170px;
+}
+
+.contact .form .hero-btn a {
+  background-image: linear-gradient(to left, #353cf1, #a147e4);
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  outline: none;
+}
+
+/* end  */
