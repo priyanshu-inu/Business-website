@@ -77,8 +77,14 @@ nav .navbar {
   transition: all 0.5s ease;
   position: fixed;
   z-index: 99999999;
-  background-color: #fff;
-  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  /* background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px; */
+}
+
+.nav .scroll {
+  background-color: #fff !important;
+  transition: background-color 20ms linear;
+  box-shadow: rgba(0, 0, 0, 0.4) 8px 10px 15px;
 }
 
 nav .navbar .nav-toggler {
@@ -555,6 +561,132 @@ nav .navbar .nav-social ul li a {
   font-size: 18px;
   font-weight: normal;
   outline: none;
+}
+
+/* end  */
+
+/* footer section start  */
+
+footer {
+  padding: 7rem;
+  background-color: #f4f7f9;
+}
+
+footer .row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer .row a {
+  padding-right: 20px;
+  color: #6c6c6c;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+footer .row ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer .row-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+footer .row-2 h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #6c6c6c;
+  padding-bottom: 20px;
+  line-height: 18px;
+}
+
+footer .row-2 li a {
+  line-height: 25px;
+  color: #121212;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+footer .row-2 li {
+  padding-bottom: 10px;
+}
+
+footer .row-2 .subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 6px;
+  position: relative;
+}
+
+footer .row-2 .row-1:nth-child(4) {
+  max-width: 300px;
+}
+
+footer .row-2 .subscribe input {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  border: 0;
+  padding: 0 25px;
+  outline: none;
+  font-weight: 500;
+  background-color: rgba(33, 33, 33, 0.15);
+}
+
+footer .row-2 .subscribe input::placeholder {
+  opacity: 0.8;
+  color: #6c6c6c;
+}
+
+footer .row-2 .subscribe button {
+  height: 40px;
+  width: 40px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 0;
+  font-size: 20px;
+  color: #121212;
+  cursor: pointer;
+  background-color: none;
+}
+
+footer .row-2 .subs-txt {
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: normal;
+  /* padding: 5px 10px; */
+}
+
+/* end  */
+
+/* copyright section start */
+
+.copyright {
+  padding: 23px 0;
+  background-color: #2b2d48;
+  /* background-color: #232323; */
+}
+
+.copyright p {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.copyright p a {
+  color: #1abc9c;
 }
 
 /* end  */
