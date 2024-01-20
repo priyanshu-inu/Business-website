@@ -13,6 +13,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script> -->
   </head>
   <body>
     <!-- navbar start  -->
@@ -25,13 +31,13 @@
         <div class="nav-toggler" type="button" id="bar">
           <i class="fa-solid fa-bars icon"></i>
         </div>
-        <div class="menubar">
+        <div class="menubar" id="nav-i">
           <ul class="items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Price</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#main-wrapper">Service</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
@@ -190,7 +196,7 @@
               </li>
               <li><i class="fa-regular fa-circle-check"></i>100 Websites</li>
               <li>
-                <i class="fa-regular fa-circle-check"></i>100 GB SSD Storage
+                <i class="fa-regular fa-circle-xmark"></i>100 GB SSD Storage
               </li>
               <li><i class="fa-regular fa-circle-check"></i> Weekly Backups</li>
               <li>
@@ -204,9 +210,9 @@
                 <i class="fa-regular fa-circle-check"></i>Free Domain (₹799.00
                 value)
               </li>
-              <li><i class="fa-regular fa-circle-check"></i>Free CDN</li>
+              <li><i class="fa-regular fa-circle-xmark"></i>Free CDN</li>
               <li>
-                <i class="fa-regular fa-circle-check"></i>Dedicated IP Address
+                <i class="fa-regular fa-circle-xmark"></i>Dedicated IP Address
               </li>
             </ul>
             <ul class="hero-btn">
@@ -226,16 +232,17 @@
             </div>
             <ul>
               <li>
-                <i class="fa-regular fa-circle-check"></i>Standard Performance
+                <i class="fa-regular fa-circle-check"></i>Increased Performance
+                (Up to 5x)
               </li>
               <li><i class="fa-regular fa-circle-check"></i>100 Websites</li>
               <li>
                 <i class="fa-regular fa-circle-check"></i>AI Website Creation
               </li>
               <li>
-                <i class="fa-regular fa-circle-check"></i>100 GB SSD Storage
+                <i class="fa-regular fa-circle-check"></i>200 GB SSD Storage
               </li>
-              <li><i class="fa-regular fa-circle-check"></i> Weekly Backups</li>
+              <li><i class="fa-regular fa-circle-check"></i> Daily Backups</li>
               <li>
                 <i class="fa-regular fa-circle-check"></i>Unlimited Free SSL
               </li>
@@ -249,7 +256,7 @@
               </li>
               <li><i class="fa-regular fa-circle-check"></i>Free CDN</li>
               <li>
-                <i class="fa-regular fa-circle-check"></i>Dedicated IP Address
+                <i class="fa-regular fa-circle-xmark"></i>Dedicated IP Address
               </li>
             </ul>
             <ul class="hero-btn">
@@ -269,13 +276,17 @@
             </div>
             <ul>
               <li>
-                <i class="fa-regular fa-circle-check"></i>Standard Performance
+                <i class="fa-regular fa-circle-check"></i>Maximum Performance
+                (Up to 10x)
               </li>
-              <li><i class="fa-regular fa-circle-check"></i>100 Websites</li>
+              <li><i class="fa-regular fa-circle-check"></i>300 Websites</li>
               <li>
-                <i class="fa-regular fa-circle-check"></i>100 GB SSD Storage
+                <i class="fa-regular fa-circle-check"></i>200 GB NVMe Storage
               </li>
-              <li><i class="fa-regular fa-circle-check"></i> Weekly Backups</li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Daily Backups
+                (₹1,380.00 value)
+              </li>
               <li>
                 <i class="fa-regular fa-circle-check"></i>Unlimited Free SSL
               </li>
@@ -301,7 +312,7 @@
 
       <!-- action section  -->
 
-      <section class="action-section">
+      <section class="action-section" id="about">
         <div class="paralal">
           <div class="call-content">
             <h3 class="title">Curious to Learn More? Stay Tuned</h3>

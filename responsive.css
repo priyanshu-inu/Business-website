@@ -1,0 +1,221 @@
+@media (max-width: 946px) {
+  /* for nav bar  */
+  nav .navbar {
+    padding: 1rem 3rem;
+  }
+
+  nav .navbar .nav-social {
+    display: none;
+  }
+
+  .hero-text {
+    width: 60%;
+  }
+
+  .hero-text h3 {
+    font-size: 34px;
+  }
+
+  /* for wrapper  */
+
+  #main-wrapper {
+    margin: 3rem 3rem 5rem 3rem;
+  }
+
+  #main-wrapper .service {
+    margin-bottom: 3.5rem;
+  }
+
+  #main-wrapper .service .ser-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .price h6 {
+    margin-bottom: 3.5rem;
+  }
+
+  #main-wrapper .service .ser-content .boxes {
+    width: 100%;
+  }
+
+  #main-wrapper .service .ser-content .ser-img {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  #main-wrapper .service .ser-content .boxes .services {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* for price section  */
+
+  .price .tables {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .price .basic {
+    margin-bottom: 3rem;
+  }
+
+  /* for action section  */
+
+  .action-section {
+    margin-bottom: 4rem;
+  }
+
+  .action-section .paralal {
+    width: 80%;
+  }
+
+  /* for contact section  */
+
+  .contact .form {
+    width: 80%;
+  }
+
+  /* for footer section  */
+
+  footer {
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 774px) {
+  /* for navbar  */
+
+  nav .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  nav .navbar .nav-toggler {
+    display: block;
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    z-index: 999999;
+    font-size: 25px;
+  }
+
+  nav .menubar {
+    position: fixed;
+    top: 55px;
+    right: -9999px;
+    width: 300px;
+    height: 100vh;
+    transition: all 0.4s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  nav .navbar .menubar .items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+    padding: 15px 0;
+    flex-direction: column;
+  }
+
+  nav .navbar .menubar .items li {
+    margin: 1.5rem 30px;
+  }
+
+  /* for hero section  */
+
+  .hero-text {
+    width: 80%;
+  }
+
+  .hero-text h6 {
+    font-size: 17px;
+  }
+
+  /* for wraper  */
+
+  #main-wrapper {
+    margin: 3rem 1rem 5rem 1rem;
+  }
+
+  #main-wrapper .service h3 {
+    font-size: 33px;
+  }
+
+  #main-wrapper .service h6 {
+    font-size: 17px;
+  }
+
+  #main-wrapper .service .ser-content .ser-img {
+    width: 90%;
+  }
+
+  /* price section start  */
+
+  .price h3 {
+    font-size: 33px;
+  }
+
+  .price h6 {
+    font-size: 17px;
+  }
+
+  .price .tables {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  /* for action section  */
+
+  .action-section h3 {
+    font-size: 33px;
+  }
+
+  .action-section h {
+    font-size: 17px;
+  }
+
+  .action-section .paralal {
+    width: 90%;
+  }
+
+  .action-section .paralal .news input {
+    font-size: 17px;
+  }
+
+  .action-section .paralal .news button {
+    font-size: 13px;
+  }
+
+  /* for contact section  */
+
+  .contact h3 {
+    font-size: 33px;
+  }
+
+  .contact h6 {
+    font-size: 17px;
+  }
+
+  .contact .form .hero-btn a {
+    font-size: 17px;
+  }
+
+  /* for footer  */
+
+  footer {
+    padding: 4rem 1rem;
+  }
+
+  footer .row-2 {
+    flex-wrap: wrap;
+  }
+
+  /* for copyright section  */
+
+  .copyright p {
+    font-size: 13px;
+  }
+}

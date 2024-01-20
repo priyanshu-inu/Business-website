@@ -38,6 +38,10 @@ h6 {
   font-weight: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main-btn {
   display: inline-block;
   font-weight: 700;
@@ -77,14 +81,8 @@ nav .navbar {
   transition: all 0.5s ease;
   position: fixed;
   z-index: 99999999;
-  /* background-color: #fff;
-  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px; */
-}
-
-.nav .scroll {
-  background-color: #fff !important;
-  transition: background-color 20ms linear;
-  box-shadow: rgba(0, 0, 0, 0.4) 8px 10px 15px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
 nav .navbar .nav-toggler {
