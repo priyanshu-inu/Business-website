@@ -219,3 +219,118 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 540px) {
+  /* for bg  */
+
+  .background {
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* for hero section  */
+
+  .hero-text h3 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .hero-text .hero-btn {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-text .hero-btn li a.main-btn {
+    margin-top: 15px;
+  }
+
+  /* service section  */
+
+  #main-wrapper .service {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  #main-wrapper .service h6 {
+    text-align: justify;
+  }
+
+  #main-wrapper .service .ser-content .boxes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  #main-wrapper .service .ser-content .boxes .services {
+    justify-content: flex-start;
+    text-align: center;
+    align-items: flex-start;
+  }
+
+  /* action button  */
+
+  .action-section h3 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .action-section .paralal .news {
+    height: 60px;
+    width: 300px;
+    padding: 18px 0 19px 0;
+    display: block;
+    align-items: center;
+  }
+
+  .action-section .paralal .news button {
+    font-size: 13px;
+    position: relative;
+    margin: 40px 0 0 0;
+  }
+
+  /* for contact  */
+
+  .contact .form {
+    width: 100%;
+  }
+
+  .contact .form .first-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contact .form .first-row input {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .contact .form .first-row {
+    margin: 0;
+  }
+
+  /* for footer  */
+
+  footer {
+    padding: 1rem 1rem;
+  }
+
+  .copyright p {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 2000px) {
+  .background .hero-shape img {
+    margin-bottom: -5px;
+  }
+}
